@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Mansalva|Montserrat&display=swap" rel="stylesheet">
+    <style type="text/css">
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .header h1 {
+            margin-top: 0;
+        }
+
+        .header {
+            background-color: white;
+            min-height: 50px;
+            text-align: center;
+        }
+
+        .content {
+            background-color: #ddd;
+            min-height: 500px;
+            overflow: auto;
+        }
+
+        .footer {
+            background-color: #ccc;
+            min-height: 50px;
+            text-align: center;
+            padding-top:10px;
+            font-family: Montserrat;
+        }
+
+        .container {
+            width: 800px;
+            margin: 1px auto;
+        }
+
+        .Logo img {
+            width: 200px;
+        }
+
+        .menu ul li {
+            display: inline-block;
+            position: relative;
+        }
+
+        .menu ul li a {
+            padding: 10px 20px;
+        }
+        .thumbnail {
+            background: white;
+            text-align:center;
+            padding: 10px;
+            width: 225px;
+            margin:10px;
+            float: left;
+        }
+        .thumbnail img {
+            width: 100%;
+            
+        }
+        ul .submenu {
+            background-color: white;
+            border: 1px solid white;
+            text-align: left;
+            position: absolute;
+            top:30px;
+            left:5px;
+            padding-left: 10px;
+        }
+        ul .submenu li {
+            display: none;
+        }
+        ul .submenu li a {
+            display:block;
+            padding:5px 10px;
+        }
+        
+        .menu ul li:hover .submenu li {
+            display:block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="header">
+            <h1>Logo Produk</h1>
+            <div class="Logo">
+                <img src="https://devschool.id/resources/images/sample-logo.png" alt="au">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a>
+                    <ul class="submenu"><li>CV</li>
+                        <li>Education</li>
+                        <li>Portofolio</li>
+                    </ul>
+                    </li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="content">
+            
+            <h2>My Products</h2>
+
+            <div class="thumbnail" >
+                <img src="http://via.placeholder.com/250x150" alt="">
+                <h2>Products 2</h2>
+                <p>Rp 250.000</p>
+            </div>
+            <div class="thumbnail">
+                    <img src="http://via.placeholder.com/250x150" alt="">
+                    <h2>Products 2</h2>
+                    <p>Rp 250.000</p>
+            </div>
+            <div class="thumbnail">
+                    <img src="http://via.placeholder.com/250x150" alt="">
+                    <h2>Products 2</h2>
+                    <p>Rp 250.000</p>
+            </div>
+            <div class="thumbnail">
+                    <img src="http://via.placeholder.com/250x150" alt="">
+                    <h2>Products 2</h2>
+                    <p>Rp 250.000</p>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <p>Copyright 2019 @Juuni.inc</p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
