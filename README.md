@@ -1,4 +1,10 @@
 # Simple_HTML-CSS
-Just basic progress in html/css in week. <br>
-check my website (using CMS wordpress #feelsbadman): <br>1. ykri.org <br>
-                                       2. Finestores.id
+
+Scratch Project HTML/CSS only  .
+
+## How to use
+
+Just copy my code that you want to use or clone it toward my github .
+
+
+
